@@ -1,0 +1,29 @@
+<!--
+
+    THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS
+    FOR A PARTICULAR PURPOSE. THIS CODE AND INFORMATION ARE NOT SUPPORTED BY XEBIALABS.
+
+-->
+<synthetic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.xebialabs.com/deployit/synthetic"
+           xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd">
+
+    <type type="rtc.Poll" extends="xlrelease.ReleaseTrigger" description="Triggers release when a new code check-in and deliver happens for a component">
+        <!-- common -->
+        <property name="entityName" required="true" description="Name of the workspace or stream to poll "/>
+        <!-- repository -->
+        <property name="server" category="Repository" referenced-type="rtc.Server" kind="ci" description="RTC Jazz server to poll"/>
+        
+        <property name="username" category="Repository" default="" required="false" description="Custom username to override global server configuration"/>
+        <property name="password" category="Repository" default="" required="false" password="true" description="Custom password to override global server configuration"/>
+
+        <!-- output variables -->
+        <property name="commitUUID" category="variables" required="false" description="Latest commit version. "/>
+        
+    </type>
+
+    <type type="rtc.Server" extends="configuration.HttpConnection">
+    </type>
+
+</synthetic>
