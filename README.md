@@ -1,9 +1,23 @@
 
-# Preface #
+# xlr-rtcjazz-plugin
 
 This document describes the functionality provided by the XL Release RTC Jazz Commit Trigger plugin.
 
 See the **[XL Release Documentation](https://docs.xebialabs.com/xl-release/)** for background information on XL Release concepts.
+
+# CI status #
+
+[![Build Status][xlr-rtcjazz-plugin-travis-image]][xlr-rtcjazz-plugin-travis-url]
+[![Codacy Badge][xlr-rtcjazz-plugin-codacy-image]][xlr-rtcjazz-plugin-codacy-url]
+[![Code Climate][xlr-rtcjazz-plugin-code-climate-image]][xlr-rtcjazz-plugin-code-climate-url]
+
+[xlr-rtcjazz-plugin-travis-image]: https://travis-ci.org/xebialabs-community/xlr-rtcjazz-plugin.svg?branch=master
+[xlr-rtcjazz-plugin-travis-url]: https://travis-ci.org/xebialabs-community/xlr-rtcjazz-plugin
+[xlr-rtcjazz-plugin-codacy-image]: https://api.codacy.com/project/badge/Grade/a76c515de76640fc9e1f282575382937
+[xlr-rtcjazz-pluginn-codacy-url]: https://www.codacy.com/app/joris-dewinne/xlr-rtcjazz-plugin
+[xlr-rtcjazz-plugin-code-climate-image]: https://codeclimate.com/github/xebialabs-community/xlr-rtcjazz-plugin/badges/gpa.svg
+[xlr-rtcjazz-plugin-code-climate-url]: https://codeclimate.com/github/xebialabs-community/xlr-rtcjazz-plugin
+
 
 # Overview #
 
