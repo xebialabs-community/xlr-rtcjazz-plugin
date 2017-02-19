@@ -13,8 +13,8 @@ See the **[XL Release Documentation](https://docs.xebialabs.com/xl-release/)** f
 
 [xlr-rtcjazz-plugin-travis-image]: https://travis-ci.org/xebialabs-community/xlr-rtcjazz-plugin.svg?branch=master
 [xlr-rtcjazz-plugin-travis-url]: https://travis-ci.org/xebialabs-community/xlr-rtcjazz-plugin
-[xlr-rtcjazz-plugin-codacy-image]: https://api.codacy.com/project/badge/Grade/a76c515de76640fc9e1f282575382937
-[xlr-rtcjazz-plugin-codacy-url]: https://www.codacy.com/app/joris-dewinne/xlr-rtcjazz-plugin
+[xlr-rtcjazz-plugin-codacy-image]: https://api.codacy.com/project/badge/Grade/b4db63bddfd54a14b167d346584cef76
+[xlr-rtcjazz-plugin-codacy-url]: https://www.codacy.com/app/amitmohleji/xlr-rtcjazz-plugin
 [xlr-rtcjazz-plugin-code-climate-image]: https://codeclimate.com/github/xebialabs-community/xlr-rtcjazz-plugin/badges/gpa.svg
 [xlr-rtcjazz-plugin-code-climate-url]: https://codeclimate.com/github/xebialabs-community/xlr-rtcjazz-plugin
 
